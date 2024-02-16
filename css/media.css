@@ -1,0 +1,42 @@
+
+
+
+@media (max-width: 1125px) {
+    .grid-container {
+        grid-template-columns:repeat(2, minmax(200px,250px));
+        grid-template-rows: repeat(8, 180px);
+        grid-template-areas:
+        "sale-1 sale-1"
+        "sale-2 sale-2"
+        "box1 box2"
+        "box1 box2"
+        "box3 box4"
+        "sale-3 sale-3"
+        "sale-4 sale-4"
+        "box3 box4"}}
+
+
+ @media (max-width: 480px) {
+     .grid-container {
+        max-width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(12, 140px);
+        grid-template-areas:
+            "sale-1"
+            "sale-1"
+            "sale-2"
+            "sale-2"
+            "box1"
+            "box2"
+            "box1"
+            "box2"
+            "box3"
+            "box4"
+            "sale-3"
+            "sale-3"
+            "sale-4"
+            " sale-4"
+            "box3"
+            "box4"}}
+        
+                      
